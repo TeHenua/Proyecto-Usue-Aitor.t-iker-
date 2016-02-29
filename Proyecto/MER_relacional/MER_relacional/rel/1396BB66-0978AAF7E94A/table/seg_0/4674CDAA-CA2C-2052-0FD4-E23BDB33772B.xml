@@ -8,18 +8,18 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_parte" id="7EB43B6B-5A00-25A9-446B-4830F57D2AB7">
+<Column name="id" id="7EB43B6B-5A00-25A9-446B-4830F57D2AB7">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:22:52 UTC</createdTime>
 <generatorID>1FEF46C7-595D-741E-9C77-F9E59807AAAA</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>6BB9B3CC-1CF4-44B9-865E-961C0408713B</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="km_principio" id="320BB7EE-A543-0FAF-A6CF-584633C8EBB3">
+<Column name="kmPrincipio" id="320BB7EE-A543-0FAF-A6CF-584633C8EBB3">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:22:52 UTC</createdTime>
 <generatorID>ACA3B300-0A69-DDF1-8FE1-5938F5EE7290</generatorID>
@@ -32,7 +32,7 @@
 <ownDataTypeParameters>,8,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="km_llegada" id="B678C2CF-0BDE-D2E5-D9EC-908D8E97C545">
+<Column name="kmLlegada" id="B678C2CF-0BDE-D2E5-D9EC-908D8E97C545">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:22:52 UTC</createdTime>
 <generatorID>E9236637-F49C-55D2-1682-20281775AE83</generatorID>
@@ -108,7 +108,7 @@
 <ownDataTypeParameters>,4,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="dietas" id="CE9325F1-3A05-C5E0-EF9A-E54825F452B1">
+<Column name="dieta" id="CE9325F1-3A05-C5E0-EF9A-E54825F452B1">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:22:52 UTC</createdTime>
 <generatorID>DA3C88BB-2BE0-1CB4-4FE1-572565C2F03F</generatorID>
@@ -122,7 +122,7 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="otros" id="04BA5523-C37C-2D5C-977B-C6D22D7D9516">
+<Column name="otro" id="04BA5523-C37C-2D5C-977B-C6D22D7D9516">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:22:52 UTC</createdTime>
 <generatorID>2F399F8E-64B6-1560-1180-913E7578D24B</generatorID>
@@ -135,7 +135,7 @@
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="incidencias" id="2ACF3910-E0D9-780C-B096-895D373B3F2A">
+<Column name="incidencia" id="2ACF3910-E0D9-780C-B096-895D373B3F2A">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:22:52 UTC</createdTime>
 <generatorID>17C61EB8-E765-51A2-3385-9EB3FB529C3D</generatorID>

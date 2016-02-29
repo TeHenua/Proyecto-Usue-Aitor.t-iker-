@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_albaran" id="13B474AD-B307-CD36-2BC2-44617715BBF5">
+<Column name="idAlbaran" id="13B474AD-B307-CD36-2BC2-44617715BBF5">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:22:52 UTC</createdTime>
 <generatorID>A16BFA1B-359D-98EC-66DE-B788A0341E9A</generatorID>
@@ -20,7 +20,7 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="h_salida" id="BBDC45EF-5D70-14EE-A15A-33CA4F56BFED">
+<Column name="hSalida" id="BBDC45EF-5D70-14EE-A15A-33CA4F56BFED">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:22:52 UTC</createdTime>
 <generatorID>5C855881-71FB-1294-334D-0C8217C5DF3C</generatorID>
@@ -31,7 +31,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="h_llegada" id="D8E94417-DE51-C3F1-3CE6-DCD91DA75552">
+<Column name="hLlegada" id="D8E94417-DE51-C3F1-3CE6-DCD91DA75552">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:22:52 UTC</createdTime>
 <generatorID>621C18F8-BDCD-8A78-ACBB-E14CBDA3769D</generatorID>
@@ -59,9 +59,9 @@
 <createdTime>2016-02-26 09:22:52 UTC</createdTime>
 <generatorID>78C8091B-DA47-AE36-0DC9-4896C16A8307</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>6BB9B3CC-1CF4-44B9-865E-961C0408713B</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>

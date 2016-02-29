@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_parte" id="1FEF46C7-595D-741E-9C77-F9E59807AAAA">
+<Attribute name="id" id="1FEF46C7-595D-741E-9C77-F9E59807AAAA">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:04:54 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -24,12 +24,12 @@
 <engineerTo>
 <item key="1396BB66-E15F-9D78-0EAA-0978AAF7E94A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>6BB9B3CC-1CF4-44B9-865E-961C0408713B</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="km_principio" id="ACA3B300-0A69-DDF1-8FE1-5938F5EE7290">
+<Attribute name="kmPrincipio" id="ACA3B300-0A69-DDF1-8FE1-5938F5EE7290">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:05:05 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -44,7 +44,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,8,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="km_llegada" id="E9236637-F49C-55D2-1682-20281775AE83">
+<Attribute name="kmLlegada" id="E9236637-F49C-55D2-1682-20281775AE83">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:07:04 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -132,7 +132,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,4,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dietas" id="DA3C88BB-2BE0-1CB4-4FE1-572565C2F03F">
+<Attribute name="dieta" id="DA3C88BB-2BE0-1CB4-4FE1-572565C2F03F">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:09:37 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -148,7 +148,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="otros" id="2F399F8E-64B6-1560-1180-913E7578D24B">
+<Attribute name="otro" id="2F399F8E-64B6-1560-1180-913E7578D24B">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:10:08 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -163,7 +163,7 @@
 <dataTypeSize>1000</dataTypeSize>
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="incidencias" id="17C61EB8-E765-51A2-3385-9EB3FB529C3D">
+<Attribute name="incidencia" id="17C61EB8-E765-51A2-3385-9EB3FB529C3D">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:12:42 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>

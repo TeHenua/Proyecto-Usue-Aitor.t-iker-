@@ -8,14 +8,14 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_centro" id="FBBBB4FF-0B4E-92E4-C49A-BC5CB4F38265">
+<Column name="id" id="FBBBB4FF-0B4E-92E4-C49A-BC5CB4F38265">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:22:52 UTC</createdTime>
 <generatorID>18B84B3E-E2DE-8C13-24E8-EBD956560E2D</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>6BB9B3CC-1CF4-44B9-865E-961C0408713B</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -67,7 +67,7 @@
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="c_postal" id="BBCDAFDA-E8B0-F9A7-3FB7-F4E1128E9A3E">
+<Column name="cPostal" id="BBCDAFDA-E8B0-F9A7-3FB7-F4E1128E9A3E">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:22:52 UTC</createdTime>
 <generatorID>0139EE51-1C1D-9296-AABE-24B58064C906</generatorID>

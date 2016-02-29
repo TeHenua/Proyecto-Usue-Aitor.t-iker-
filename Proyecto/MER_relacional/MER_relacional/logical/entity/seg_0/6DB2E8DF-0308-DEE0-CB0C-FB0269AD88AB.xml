@@ -58,7 +58,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tel_empresa" id="1CC14092-65EF-71D9-9554-C654AC40366B">
+<Attribute name="telEmpresa" id="1CC14092-65EF-71D9-9554-C654AC40366B">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 08:58:31 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -128,7 +128,7 @@
 <dataTypeSize>3</dataTypeSize>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tel_personal" id="6FADEAFD-D927-7DB0-7E68-C247E8CA2772">
+<Attribute name="telPersonal" id="6FADEAFD-D927-7DB0-7E68-C247E8CA2772">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 08:58:51 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -143,7 +143,7 @@
 <dataTypeSize>9</dataTypeSize>
 <ownDataTypeParameters>9,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_nac" id="051D65D6-7AF7-B87D-9597-BEE0F8363542">
+<Attribute name="fechaNac" id="051D65D6-7AF7-B87D-9597-BEE0F8363542">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 08:59:04 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -173,7 +173,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_centro" id="7EB6ECAF-2AE4-A1D2-618C-610180E58045">
+<Attribute name="id" id="7EB6ECAF-2AE4-A1D2-618C-610180E58045">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 09:19:28 UTC</createdTime>
 <generatorID>8C31E983-00C6-ED2B-5448-884CF329D69E</generatorID>
@@ -182,9 +182,9 @@
 <item key="1396BB66-E15F-9D78-0EAA-0978AAF7E94A" value="true"/>
 </engineerTo>
 <referedAttribute>18B84B3E-E2DE-8C13-24E8-EBD956560E2D</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>6BB9B3CC-1CF4-44B9-865E-961C0408713B</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

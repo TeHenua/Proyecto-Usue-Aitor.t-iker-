@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_centro" id="18B84B3E-E2DE-8C13-24E8-EBD956560E2D">
+<Attribute name="id" id="18B84B3E-E2DE-8C13-24E8-EBD956560E2D">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 08:54:10 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
@@ -24,9 +24,9 @@
 <engineerTo>
 <item key="1396BB66-E15F-9D78-0EAA-0978AAF7E94A" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>6BB9B3CC-1CF4-44B9-865E-961C0408713B</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="FF62656B-F67D-CFA3-B06B-E0CB430DAEDF">
@@ -85,7 +85,7 @@
 <dataTypeSize>3</dataTypeSize>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="c_postal" id="0139EE51-1C1D-9296-AABE-24B58064C906">
+<Attribute name="cPostal" id="0139EE51-1C1D-9296-AABE-24B58064C906">
 <createdBy>1GED07</createdBy>
 <createdTime>2016-02-26 08:56:36 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
