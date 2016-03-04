@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Asigna" directorySegmentName="seg_0" id="ED8FC699-7B22-710F-617B-7B7F43341217">
+<createdBy>1GED07</createdBy>
+<createdTime>2016-03-04 07:30:40 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<engineerTo>
+<item key="D32A0F56-206B-2E02-3189-B81EEC0EE25D" value="true"/>
+</engineerTo>
+<sourcePk>9082E382-3E92-1C53-4D54-243D21004C37</sourcePk>
+<targetPk>1D7FB906-F880-2587-7EE2-E7A6F01C75A6</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6DB2E8DF-0308-DEE0-CB0C-FB0269AD88AB</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A2652BD3-E315-034E-B159-98AFD7FAEFC9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

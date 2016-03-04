@@ -5,7 +5,7 @@
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <engineerTo>
-<item key="1396BB66-E15F-9D78-0EAA-0978AAF7E94A" value="true"/>
+<item key="D32A0F56-206B-2E02-3189-B81EEC0EE25D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,11 +22,12 @@
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <engineerTo>
-<item key="1396BB66-E15F-9D78-0EAA-0978AAF7E94A" value="true"/>
+<item key="D32A0F56-206B-2E02-3189-B81EEC0EE25D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6BB9B3CC-1CF4-44B9-865E-961C0408713B</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="FF62656B-F67D-CFA3-B06B-E0CB430DAEDF">
@@ -35,7 +36,7 @@
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <engineerTo>
-<item key="1396BB66-E15F-9D78-0EAA-0978AAF7E94A" value="true"/>
+<item key="D32A0F56-206B-2E02-3189-B81EEC0EE25D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,7 +50,7 @@
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <engineerTo>
-<item key="1396BB66-E15F-9D78-0EAA-0978AAF7E94A" value="true"/>
+<item key="D32A0F56-206B-2E02-3189-B81EEC0EE25D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -63,7 +64,7 @@
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <engineerTo>
-<item key="1396BB66-E15F-9D78-0EAA-0978AAF7E94A" value="true"/>
+<item key="D32A0F56-206B-2E02-3189-B81EEC0EE25D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -77,7 +78,7 @@
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <engineerTo>
-<item key="1396BB66-E15F-9D78-0EAA-0978AAF7E94A" value="true"/>
+<item key="D32A0F56-206B-2E02-3189-B81EEC0EE25D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -91,7 +92,7 @@
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <engineerTo>
-<item key="1396BB66-E15F-9D78-0EAA-0978AAF7E94A" value="true"/>
+<item key="D32A0F56-206B-2E02-3189-B81EEC0EE25D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -105,7 +106,7 @@
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <engineerTo>
-<item key="1396BB66-E15F-9D78-0EAA-0978AAF7E94A" value="true"/>
+<item key="D32A0F56-206B-2E02-3189-B81EEC0EE25D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -119,7 +120,7 @@
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <engineerTo>
-<item key="1396BB66-E15F-9D78-0EAA-0978AAF7E94A" value="true"/>
+<item key="D32A0F56-206B-2E02-3189-B81EEC0EE25D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -135,7 +136,7 @@
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <engineerTo>
-<item key="1396BB66-E15F-9D78-0EAA-0978AAF7E94A" value="true"/>
+<item key="D32A0F56-206B-2E02-3189-B81EEC0EE25D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

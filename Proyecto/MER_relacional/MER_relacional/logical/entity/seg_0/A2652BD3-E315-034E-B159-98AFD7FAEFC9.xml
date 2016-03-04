@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2652BD3-E315-034E-B159-98AFD7FAEFC9" name="Usuario">
+<createdBy>1GED07</createdBy>
+<createdTime>2016-03-04 07:28:53 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<engineerTo>
+<item key="D32A0F56-206B-2E02-3189-B81EEC0EE25D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="usuario" id="319E5660-1A69-D8B2-2983-64CE5FBB8B45">
+<createdBy>1GED07</createdBy>
+<createdTime>2016-03-04 07:29:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<engineerTo>
+<item key="D32A0F56-206B-2E02-3189-B81EEC0EE25D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contrasenia" id="3683B3DE-6CAB-8802-932F-FBA698D5AAD5">
+<createdBy>1GED07</createdBy>
+<createdTime>2016-03-04 07:29:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<engineerTo>
+<item key="D32A0F56-206B-2E02-3189-B81EEC0EE25D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dni" id="7A6DF358-D5F5-AA88-E319-00549B093317">
+<createdBy>1GED07</createdBy>
+<createdTime>2016-03-04 07:30:40 UTC</createdTime>
+<generatorID>ED8FC699-7B22-710F-617B-7B7F43341217</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<engineerTo>
+<item key="D32A0F56-206B-2E02-3189-B81EEC0EE25D" value="true"/>
+</engineerTo>
+<referedAttribute>4749F928-30EC-2066-3D84-753DA3DB73F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D7FB906-F880-2587-7EE2-E7A6F01C75A6" name="Usuario PK">
+<createdBy>1GED07</createdBy>
+<createdTime>2016-03-04 07:29:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<engineerTo>
+<item key="D32A0F56-206B-2E02-3189-B81EEC0EE25D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>319E5660-1A69-D8B2-2983-64CE5FBB8B45</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

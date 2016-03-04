@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C40CF4A6-51C5-438C-7171-E1500EB6A4A1" name="Usuario">
+<createdBy>1GED07</createdBy>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
+<generatorID>A2652BD3-E315-034E-B159-98AFD7FAEFC9</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuario" id="4A50416E-FEC0-8BCA-FD26-CB41294CC12F">
+<createdBy>1GED07</createdBy>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
+<generatorID>319E5660-1A69-D8B2-2983-64CE5FBB8B45</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contrasenia" id="308A7460-E5A2-92BE-B463-7D14654BA079">
+<createdBy>1GED07</createdBy>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
+<generatorID>3683B3DE-6CAB-8802-932F-FBA698D5AAD5</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23D8CF9A-2127-847A-A500-C2C44A12060B" name="Usuario_PK">
+<createdBy>1GED07</createdBy>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
+<generatorID>1D7FB906-F880-2587-7EE2-E7A6F01C75A6</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A50416E-FEC0-8BCA-FD26-CB41294CC12F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEBB5862-F314-FF74-328B-D356DA39F105" name="Usuario__IDX">
+<createdBy>1GED07</createdBy>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>ED8FC699-7B22-710F-617B-7B7F43341217</relationGeneratorID>
+</ind_PK_UK>
+</indexes>
+</Table>

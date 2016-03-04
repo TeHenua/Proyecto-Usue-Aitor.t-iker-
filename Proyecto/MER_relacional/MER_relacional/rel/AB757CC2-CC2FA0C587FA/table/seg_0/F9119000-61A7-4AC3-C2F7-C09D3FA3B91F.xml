@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4B50B3B-4EC5-129C-84AD-E478B526DB49" name="Trabajador">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9119000-61A7-4AC3-C2F7-C09D3FA3B91F" name="Trabajador">
 <createdBy>1GED07</createdBy>
-<createdTime>2016-02-26 09:22:52 UTC</createdTime>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
 <generatorID>6DB2E8DF-0308-DEE0-CB0C-FB0269AD88AB</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="dni" id="A128E80E-763E-64CA-E1AC-A72ECB0CA154">
+<Column name="dni" id="0F21A22B-4ACF-9E59-9163-9F17A6DAFAB0">
 <createdBy>1GED07</createdBy>
-<createdTime>2016-02-26 09:22:52 UTC</createdTime>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
 <generatorID>4749F928-30EC-2066-3D84-753DA3DB73F2</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>9,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nombre" id="1A590188-6A64-0E6F-D73F-DF6648684D00">
+<Column name="nombre" id="45EF9BD0-20E8-0FB8-A21F-44E4A5F17164">
 <createdBy>1GED07</createdBy>
-<createdTime>2016-02-26 09:22:52 UTC</createdTime>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
 <generatorID>581111DD-3804-0A0E-617D-475C674DED5D</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="apellidos" id="D0681F6F-823B-EA47-117B-115CE1EF2337">
+<Column name="apellidos" id="E9D414C0-6D7D-626E-42E7-5CC0494F6470">
 <createdBy>1GED07</createdBy>
-<createdTime>2016-02-26 09:22:52 UTC</createdTime>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
 <generatorID>19BF92B3-1AF1-30DD-4915-988E8854D4F5</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,9 +44,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="telEmpresa" id="C7630FE3-C6DB-95A9-C5E0-79B488318227">
+<Column name="telEmpresa" id="07E4D272-6A32-7463-47DD-E121A78367F2">
 <createdBy>1GED07</createdBy>
-<createdTime>2016-02-26 09:22:52 UTC</createdTime>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
 <generatorID>1CC14092-65EF-71D9-9554-C654AC40366B</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -56,9 +56,9 @@
 <ownDataTypeParameters>9,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="calle" id="B687D807-734C-B1D2-F3C2-4F47654CE8EC">
+<Column name="calle" id="4F705DE6-BDE4-2570-0224-22754079C8FA">
 <createdBy>1GED07</createdBy>
-<createdTime>2016-02-26 09:22:52 UTC</createdTime>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
 <generatorID>0CC9B0A3-1A7E-7B55-7499-DFF854809476</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -68,9 +68,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="portal" id="43F76C2C-7C33-9B05-159D-19EC6868130F">
+<Column name="portal" id="2B09B516-9869-45F1-BDF7-87BCBE9833C6">
 <createdBy>1GED07</createdBy>
-<createdTime>2016-02-26 09:22:52 UTC</createdTime>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
 <generatorID>7AF68610-06F1-02E5-95ED-5C6F2CB48B3D</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -80,9 +80,9 @@
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="piso" id="6148161F-9187-D7B1-0F80-56106C8B0B78">
+<Column name="piso" id="EFF548B4-D36B-FC6F-624E-60C3AE88B4B4">
 <createdBy>1GED07</createdBy>
-<createdTime>2016-02-26 09:22:52 UTC</createdTime>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
 <generatorID>9B68EA0C-E9A9-A6E6-F1D8-9D45B7AECA20</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -92,9 +92,9 @@
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="mano" id="25A7AEB2-ACA6-50A6-504C-DC7EC55B8B09">
+<Column name="mano" id="84222324-FFB0-477D-B8D2-465F423E119B">
 <createdBy>1GED07</createdBy>
-<createdTime>2016-02-26 09:22:52 UTC</createdTime>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
 <generatorID>ED333707-D898-6B2C-DBB1-8B318FE0D4D4</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -104,9 +104,9 @@
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="telPersonal" id="DF86C579-8EC9-DAAC-35B6-92AE8B3A7855">
+<Column name="telPersonal" id="47F89074-7DD1-FFBB-6A14-1889411ADA83">
 <createdBy>1GED07</createdBy>
-<createdTime>2016-02-26 09:22:52 UTC</createdTime>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
 <generatorID>6FADEAFD-D927-7DB0-7E68-C247E8CA2772</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -117,9 +117,9 @@
 <ownDataTypeParameters>9,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fechaNac" id="2CF6D42E-2FE8-D609-8E31-87A2640662A2">
+<Column name="fechaNac" id="4C2622A4-61AE-261D-260C-DB443F0220F9">
 <createdBy>1GED07</createdBy>
-<createdTime>2016-02-26 09:22:52 UTC</createdTime>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
 <generatorID>051D65D6-7AF7-B87D-9597-BEE0F8363542</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -129,9 +129,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="salario" id="5A0CE80B-A307-820D-E686-1D23EF10E92F">
+<Column name="salario" id="6886C8A7-0F82-9969-CBF5-00DDD84C226E">
 <createdBy>1GED07</createdBy>
-<createdTime>2016-02-26 09:22:52 UTC</createdTime>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
 <generatorID>B12FB79A-24F2-6739-9F73-1C5AF11FD9A7</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -143,44 +143,96 @@
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Centro_id_centro" id="3123BE49-F6F8-4E5C-5C44-1D35684C5AD4">
+<Column name="Centro_id" id="46854C5D-018E-B883-1E04-BBDE74BD9E46">
 <createdBy>1GED07</createdBy>
-<createdTime>2016-02-26 09:22:52 UTC</createdTime>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
 <generatorID>7EB6ECAF-2AE4-A1D2-618C-610180E58045</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6BB9B3CC-1CF4-44B9-865E-961C0408713B</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E00BEDAA-A607-217E-E60B-228B841431DF" referredColumn="FBBBB4FF-0B4E-92E4-C49A-BC5CB4F38265"/>
+<colAssociation fkAssociation="7041C9D9-5BA5-F2FC-39E4-75FB863C7A74" referredColumn="B0BC2AA6-57F4-2ADA-8E86-516C7573EA7C"/>
 </associations>
+</Column>
+<Column name="Usuario_usuario" id="731DB690-A727-5A79-FCC9-8069446543FE">
+<createdBy>1GED07</createdBy>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
+<generatorID>B9F1F8DD-D394-9EE8-8B81-CADDDFEB1019</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF36785A-35DC-AA37-F8E5-6A23162A5FEE" referredColumn="4A50416E-FEC0-8BCA-FD26-CB41294CC12F"/>
+</associations>
+</Column>
+<Column name="tipoTrabajador" id="5C807C0E-1596-393C-2EAD-A3585568BDF9">
+<createdBy>1GED07</createdBy>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
+<generatorID>5CD3E940-2886-8D20-86A9-5515CE6ED24E</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D08F7E78-06C8-47A2-6E07-BCD657507B9A" name="Trabajador_PK">
+<ind_PK_UK id="7D0F5B64-0FEB-8023-DCC4-54148A8881FD" name="Trabajador_PK">
 <createdBy>1GED07</createdBy>
-<createdTime>2016-02-26 09:22:52 UTC</createdTime>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
 <generatorID>9082E382-3E92-1C53-4D54-243D21004C37</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A128E80E-763E-64CA-E1AC-A72ECB0CA154"/>
+<colUsage columnID="0F21A22B-4ACF-9E59-9163-9F17A6DAFAB0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AE02AF9D-85CC-3334-24D8-F37030BE7F79" name="Trabajador_Centro_FK">
+<ind_PK_UK id="47FCD6F2-9CAD-B3B5-934D-4285FA80DB6D" name="Trabajador__IDX">
 <createdBy>1GED07</createdBy>
-<createdTime>2016-02-26 09:22:53 UTC</createdTime>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>ED8FC699-7B22-710F-617B-7B7F43341217</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="731DB690-A727-5A79-FCC9-8069446543FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB0A627F-FBD1-C948-4A2C-704F28A0DA40" name="Trabajador_Usuario_FK">
+<createdBy>1GED07</createdBy>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
+<generatorID>ED8FC699-7B22-710F-617B-7B7F43341217</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="731DB690-A727-5A79-FCC9-8069446543FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFC5534A-CBAF-AF96-1027-727FFB926B22" name="Trabajador_Centro_FK">
+<createdBy>1GED07</createdBy>
+<createdTime>2016-03-04 09:00:58 UTC</createdTime>
 <generatorID>8C31E983-00C6-ED2B-5448-884CF329D69E</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3123BE49-F6F8-4E5C-5C44-1D35684C5AD4"/>
+<colUsage columnID="46854C5D-018E-B883-1E04-BBDE74BD9E46"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
