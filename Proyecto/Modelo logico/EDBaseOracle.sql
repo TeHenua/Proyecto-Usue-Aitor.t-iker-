@@ -1,8 +1,6 @@
-DROP TABLE trabajador CASCADE CONSTRAINTS ;
+DROP TABLE centro_ CASCADE CONSTRAINTS ;
 
-DROP TABLE centro CASCADE CONSTRAINTS ;
-
-DROP TABLE usuario CASCADE CONSTRAINTS ;
+DROP TABLE usuarios CASCADE CONSTRAINTS ;
 
 DROP TABLE parte CASCADE CONSTRAINTS ;
 
@@ -12,7 +10,7 @@ DROP TABLE administracion CASCADE CONSTRAINTS;
 
 DROP TABLE logistica CASCADE CONSTRAINTS;
 
-CREATE TABLE centro
+CREATE TABLE centro_
   (
     id        NUMBER (2)
       GENERATED ALWAYS AS IDENTITY 
@@ -32,31 +30,12 @@ CREATE TABLE centro
     telefono  VARCHAR2 (9) NOT NULL
   ) ;
   
-CREATE TABLE usuario
+CREATE TABLE usuarios
   (
     usuario     VARCHAR2 (20) CONSTRAINT usu_us_pk PRIMARY KEY ,
-    contrasenia    VARCHAR2 (20) NOT NULL,
+    contrasenia    VARCHAR2 (20) NOT NULL
   ) ;
-
-CREATE TABLE administracion
-  (
-    dni         VARCHAR2 (9) CONSTRAINT adm_dni_pk PRIMARY KEY ,
-    nombre      VARCHAR2 (20) CONSTRAINT NNC_adm_nombre NOT NULL ,
-    apellidos   VARCHAR2 (30) CONSTRAINT NNC_adm_apellidos NOT NULL,
-    calle       VARCHAR2 (20) NOT NULL,
-    portal      NUMBER (2) NOT NULL,
-    piso        NUMBER (2) NOT NULL,
-    mano        VARCHAR2 (4) NOT NULL,
-    telEmpresa    VARCHAR2 (9) NOT NULL,
-    telPersonal VARCHAR2 (9) ,
-    fechaNac    DATE ,
-    salario     NUMBER (5) ,
-    idCentro       NUMBER (2) CONSTRAINT NNC_adm_centro_id NOT NULL ,
-    usuarioUsuario VARCHAR2(20) CONSTRAINT NNC_adm_usuarioUsuario NOT NULL ,
-    CONSTRAINT adm_centro_fk FOREIGN KEY ( idCentro ) REFERENCES centro ( id )
-    CONSTRAINT adm_usuario_fk FOREIGN KEY ( usuarioUsuario ) REFERENCES usuario ( usuario )
-  ) ;
-  
+    
 CREATE TABLE logistica
   (
     dni         VARCHAR2 (9) CONSTRAINT log_dni_pk PRIMARY KEY ,
@@ -66,22 +45,14 @@ CREATE TABLE logistica
     portal      NUMBER (2) NOT NULL,
     piso        NUMBER (2) NOT NULL,
     mano        VARCHAR2 (4) NOT NULL,
-    telEmpresa    VARCHAR2 (9) NOT NULL,
-    telPersonal VARCHAR2 (9) ,
+    telEmpresa  VARCHAR2 (9) NOT NULL,
+    telPersonal VARCHAR2 (9),
     fechaNac    DATE ,
     salario     NUMBER (5) ,
     idCentro       NUMBER (2) CONSTRAINT NNC_log_centro_id NOT NULL ,
-    usuarioUsuario VARCHAR2(20) CONSTRAINT NNC_log_usuarioUsuario NOT NULL ,
-    CONSTRAINT log_centro_fk FOREIGN KEY ( idCentro ) REFERENCES centro ( id )
-    CONSTRAINT log_usuario_fk FOREIGN KEY ( usuarioUsuario ) REFERENCES usuario ( usuario )
-  ) ;
-  
-CREATE TABLE administra
-  (
-    dniAdministracion VARCHAR2 (9) CONSTRAINT trab_dni_pk PRIMARY KEY ,
-    idParte           NUMBER (2) CONSTRAINT trab_dni_pk PRIMARY KEY ,
-    CONSTRAINT admi_administracion_fk FOREIGN KEY ( dniAdministracion ) REFERENCES administracion ( dni ) ,
-    CONSTRAINT admi_parte_fk FOREIGN KEY ( idParte ) REFERENCES parte ( id )
+    usuarioUsuarios VARCHAR2(20) CONSTRAINT NNC_log_usuarioUsuario NOT NULL ,
+    CONSTRAINT log_centro_fk FOREIGN KEY ( idCentro ) REFERENCES centro_ ( id ),
+    CONSTRAINT log_usuario_fk FOREIGN KEY ( usuarioUsuarios ) REFERENCES usuarios ( usuario )
   ) ;
   
 CREATE TABLE parte
@@ -97,16 +68,40 @@ CREATE TABLE parte
       CONSTRAINT parte_id_pk PRIMARY KEY ,
     kmPrincipio  NUMBER (10) ,
     kmLlegada    NUMBER (10) ,
-    abierto      BOOLEAN ,
-    validado     BOOLEAN ,
-    mValidado    BOOLEAN ,
+    abierto      VARCHAR2(1) ,
+    validado     VARCHAR2(1) ,
+    mValidado    VARCHAR2(1) ,
     fecha        DATE ,
     gasoil       NUMBER (7) ,
     autopista    NUMBER (6) ,
     dieta        NUMBER (7) ,
     otro         VARCHAR2 (1000) ,
-    incidencia   VARCHAR2 (1000)
-    CONSTRAINT parte_trabajador_fk FOREIGN KEY ( idTrabajador ) REFERENCES trabajador ( id )
+    incidencia   VARCHAR2 (1000),
+    dniAdministracion VARCHAR2(9),
+    dniLogistica VARCHAR2(9),
+    CONSTRAINT parte_administracion_fk FOREIGN KEY ( dniAdministracion ) REFERENCES administracion ( dni ),
+    CONSTRAINT parte_logistica_fk FOREIGN KEY ( dniLogistica ) REFERENCES logistica ( dni )
+  ) ;
+  
+CREATE TABLE administracion
+  (
+    dni         VARCHAR2 (9) CONSTRAINT adm_dni_pk PRIMARY KEY ,
+    nombre      VARCHAR2 (20) CONSTRAINT NNC_adm_nombre NOT NULL ,
+    apellidos   VARCHAR2 (30) CONSTRAINT NNC_adm_apellidos NOT NULL,
+    calle       VARCHAR2 (20) NOT NULL,
+    portal      NUMBER (2) NOT NULL,
+    piso        NUMBER (2) NOT NULL,
+    mano        VARCHAR2 (4) NOT NULL,
+    telEmpresa    VARCHAR2 (9) NOT NULL,
+    telPersonal VARCHAR2 (9),
+    fechaNac    DATE,
+    salario     NUMBER (5),
+    idCentro       NUMBER (2) CONSTRAINT NNC_adm_centro_id NOT NULL ,
+    usuarioUsuarios VARCHAR2(20) CONSTRAINT NNC_adm_usuarioUsuario NOT NULL ,
+    idParte NUMBER(2),
+    CONSTRAINT adm_centro_fk FOREIGN KEY ( idCentro ) REFERENCES centro_ ( id ),
+    CONSTRAINT adm_usuario_fk FOREIGN KEY ( usuarioUsuarios ) REFERENCES usuarios ( usuario ),
+    CONSTRAINT adm_parte_fk FOREIGN KEY ( idParte ) REFERENCES parte ( id )
   ) ;
 
 CREATE TABLE Viaje
@@ -115,6 +110,6 @@ CREATE TABLE Viaje
     hSalida   DATE NOT NULL ,
     hLlegada  DATE NOT NULL ,
     matricula VARCHAR2 (8) NOT NULL ,
-    idParte  NUMBER NOT NULL
+    idParte  NUMBER NOT NULL,
     CONSTRAINT viaje_parte_fk FOREIGN KEY ( idParte ) REFERENCES parte ( id )
   ) ;
