@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5EDD926-AB8A-7A09-9204-8560D849FE24" name="administra">
+<createdBy>1GBD07</createdBy>
+<createdTime>2016-03-08 08:13:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Administracion_dni" id="237A8CD0-545E-DA94-ECCA-A6CC0B6FF361">
+<createdBy>1GBD07</createdBy>
+<createdTime>2016-03-08 08:13:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B8C6A08-486B-E566-C6FA-1F6CFDAB40A3" referredColumn="2B40FCD8-938D-9EE4-3ED9-EBE2D9F4DD99"/>
+</associations>
+</Column>
+<Column name="Parte_id" id="82DB40E0-1DC0-5F75-CF15-8CB140F43393">
+<createdBy>1GBD07</createdBy>
+<createdTime>2016-03-08 08:13:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<domain>6BB9B3CC-1CF4-44B9-865E-961C0408713B</domain>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDADDE97-2348-6073-28F8-8525B9A28B18" referredColumn="AD8B27CE-8E5B-ECA1-148E-9576C57C6A8C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5197171-F6BB-1EF7-6226-3C81AE14DF98" name="administra_PK">
+<createdBy>1GBD07</createdBy>
+<createdTime>2016-03-08 08:13:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="237A8CD0-545E-DA94-ECCA-A6CC0B6FF361"/>
+<colUsage columnID="82DB40E0-1DC0-5F75-CF15-8CB140F43393"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54F6FD48-2296-C2DD-3B47-12E9AACC8A85" name="FK_ASS_7">
+<createdBy>1GBD07</createdBy>
+<createdTime>2016-03-08 08:13:41 UTC</createdTime>
+<generatorID>80AB16FC-A745-7474-97F5-D2023DA60F92</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="237A8CD0-545E-DA94-ECCA-A6CC0B6FF361"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84FCC19A-1279-E8D6-8D12-CCF2CD1C44B4" name="FK_ASS_8">
+<createdBy>1GBD07</createdBy>
+<createdTime>2016-03-08 08:13:41 UTC</createdTime>
+<generatorID>80AB16FC-A745-7474-97F5-D2023DA60F92</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82DB40E0-1DC0-5F75-CF15-8CB140F43393"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

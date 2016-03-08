@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C40CF4A6-51C5-438C-7171-E1500EB6A4A1" name="Usuario">
-<createdBy>1GED07</createdBy>
-<createdTime>2016-03-04 09:00:58 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B469B4E-04ED-2242-8987-B3D0E7BB5AD5" name="Usuario">
+<createdBy>1GBD07</createdBy>
+<createdTime>2016-03-08 08:13:41 UTC</createdTime>
 <generatorID>A2652BD3-E315-034E-B159-98AFD7FAEFC9</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="usuario" id="4A50416E-FEC0-8BCA-FD26-CB41294CC12F">
-<createdBy>1GED07</createdBy>
-<createdTime>2016-03-04 09:00:58 UTC</createdTime>
+<Column name="usuario" id="3EF56F54-4B05-A181-5240-3BE0AA6E8D9D">
+<createdBy>1GBD07</createdBy>
+<createdTime>2016-03-08 08:13:41 UTC</createdTime>
 <generatorID>319E5660-1A69-D8B2-2983-64CE5FBB8B45</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="contrasenia" id="308A7460-E5A2-92BE-B463-7D14654BA079">
-<createdBy>1GED07</createdBy>
-<createdTime>2016-03-04 09:00:58 UTC</createdTime>
+<Column name="contrasenia" id="C6EC2C5F-CEE8-067D-7F1A-D0759D0F3D85">
+<createdBy>1GBD07</createdBy>
+<createdTime>2016-03-08 08:13:41 UTC</createdTime>
 <generatorID>3683B3DE-6CAB-8802-932F-FBA698D5AAD5</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -34,21 +34,21 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="23D8CF9A-2127-847A-A500-C2C44A12060B" name="Usuario_PK">
-<createdBy>1GED07</createdBy>
-<createdTime>2016-03-04 09:00:58 UTC</createdTime>
+<ind_PK_UK id="FDF5F8DB-9FB1-FFDB-0D9A-1D22D64F8859" name="Usuario_PK">
+<createdBy>1GBD07</createdBy>
+<createdTime>2016-03-08 08:13:41 UTC</createdTime>
 <generatorID>1D7FB906-F880-2587-7EE2-E7A6F01C75A6</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4A50416E-FEC0-8BCA-FD26-CB41294CC12F"/>
+<colUsage columnID="3EF56F54-4B05-A181-5240-3BE0AA6E8D9D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AEBB5862-F314-FF74-328B-D356DA39F105" name="Usuario__IDX">
-<createdBy>1GED07</createdBy>
-<createdTime>2016-03-04 09:00:58 UTC</createdTime>
+<ind_PK_UK id="ED516F19-D6BC-3021-597B-119FC0034BCA" name="Usuario__IDX">
+<createdBy>1GBD07</createdBy>
+<createdTime>2016-03-08 08:13:41 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MER_relacional</ownerDesignName>
 <indexState>Unique Plain Index</indexState>

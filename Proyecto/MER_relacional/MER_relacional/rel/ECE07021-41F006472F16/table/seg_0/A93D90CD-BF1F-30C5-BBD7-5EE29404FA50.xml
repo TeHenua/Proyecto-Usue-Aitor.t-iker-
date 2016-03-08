@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A93D90CD-BF1F-30C5-BBD7-5EE29404FA50" name="Administracion">
+<createdBy>1GBD07</createdBy>
+<createdTime>2016-03-08 08:13:41 UTC</createdTime>
+<generatorID>22859485-CFCB-63A3-4E0F-00C995460AC0</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dni" id="2B40FCD8-938D-9EE4-3ED9-EBE2D9F4DD99">
+<createdBy>1GBD07</createdBy>
+<createdTime>2016-03-08 08:13:41 UTC</createdTime>
+<generatorID>4749F928-30EC-2066-3D84-753DA3DB73F2</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF632C42-8594-17E8-F69A-6051A4CFBA55" referredColumn="19164F8D-E37E-6B66-F0B6-98C27BBD658B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4312865C-2A16-D3EC-CE61-A500B1E56000" name="Administracion_PK">
+<createdBy>1GBD07</createdBy>
+<createdTime>2016-03-08 08:13:41 UTC</createdTime>
+<generatorID>9082E382-3E92-1C53-4D54-243D21004C37</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B40FCD8-938D-9EE4-3ED9-EBE2D9F4DD99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="625BCBE3-0515-A534-A973-28D4A5997C51" name="Administracion_Trabajador_FK">
+<createdBy>1GBD07</createdBy>
+<createdTime>2016-03-08 08:13:41 UTC</createdTime>
+<generatorID>24806644-0C63-8F63-B958-2FA665047671</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B40FCD8-938D-9EE4-3ED9-EBE2D9F4DD99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
