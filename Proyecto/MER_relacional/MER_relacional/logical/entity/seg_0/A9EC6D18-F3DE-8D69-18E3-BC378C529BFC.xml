@@ -207,6 +207,21 @@
 <dataTypeSize>9</dataTypeSize>
 <ownDataTypeParameters>9,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="dni1" id="D941C008-F28B-85E5-27DD-FCD362DBCF9D">
+<createdBy>1GED07</createdBy>
+<createdTime>2016-03-10 11:11:43 UTC</createdTime>
+<generatorID>1B449D94-7E14-A48A-C222-E0DFCD1B1DFA</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<engineerTo>
+<item key="ECE07021-7830-19DB-ADE6-41F006472F16" value="true"/>
+</engineerTo>
+<referedAttribute>4749F928-30EC-2066-3D84-753DA3DB73F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="AF470329-2A74-26A6-7050-954861EB4362" name="Parte PK">

@@ -10,6 +10,8 @@ DROP TABLE administracion CASCADE CONSTRAINTS;
 
 DROP TABLE logistica CASCADE CONSTRAINTS;
 
+DROP TABLE administra CASCADE CONSTRAINTS;
+
 CREATE TABLE centro_
   (
     id        NUMBER (2)
@@ -79,7 +81,6 @@ CREATE TABLE parte
     incidencia   VARCHAR2 (1000),
     dniAdministracion VARCHAR2(9),
     dniLogistica VARCHAR2(9),
-    CONSTRAINT parte_administracion_fk FOREIGN KEY ( dniAdministracion ) REFERENCES administracion ( dni ),
     CONSTRAINT parte_logistica_fk FOREIGN KEY ( dniLogistica ) REFERENCES logistica ( dni )
   ) ;
   
@@ -102,6 +103,16 @@ CREATE TABLE administracion
     CONSTRAINT adm_centro_fk FOREIGN KEY ( idCentro ) REFERENCES centro_ ( id ),
     CONSTRAINT adm_usuario_fk FOREIGN KEY ( usuarioUsuarios ) REFERENCES usuarios ( usuario ),
     CONSTRAINT adm_parte_fk FOREIGN KEY ( idParte ) REFERENCES parte ( id )
+  ) ;
+
+CREATE TABLE administra
+  (
+    iddni    VARCHAR2(9),
+    idparte  NUMBER(2),
+    
+    CONSTRAINT ad_administracion_parte_pk PRIMARY KEY (iddni,idparte),
+    CONSTRAINT ad_administracion_fk FOREIGN KEY ( iddni ) REFERENCES administracion ( dni ),
+    CONSTRAINT ad_parte_fk FOREIGN KEY ( idparte ) REFERENCES parte ( id )
   ) ;
 
 CREATE TABLE Viaje

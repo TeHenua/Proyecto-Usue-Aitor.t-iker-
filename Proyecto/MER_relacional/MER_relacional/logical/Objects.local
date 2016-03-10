@@ -1,22 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
    <object objectType="Entity" objectID="22859485-CFCB-63A3-4E0F-00C995460AC0" name="Administracion" seqName="seg_0"/>
-   <object objectType="Entity" objectID="D6FF33C5-6808-C1E1-CC26-AF5335E7191F" name="Administracionv1" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D6FF33C5-6808-C1E1-CC26-AF5335E7191F" name="Administracionv2" seqName="seg_0"/>
    <object objectType="Entity" objectID="47D41B96-99E0-E321-3FD0-01BF66BA9527" name="Centro" seqName="seg_0"/>
    <object objectType="Entity" objectID="3A0D5378-A180-26D9-CC20-9F3BA8A133F4" name="Logistica" seqName="seg_0"/>
-   <object objectType="Entity" objectID="56F44D99-FE9D-2684-8A17-BAE804AF0AAC" name="Logisticav2" seqName="seg_0"/>
+   <object objectType="Entity" objectID="56F44D99-FE9D-2684-8A17-BAE804AF0AAC" name="Logisticav1" seqName="seg_0"/>
    <object objectType="Entity" objectID="A9EC6D18-F3DE-8D69-18E3-BC378C529BFC" name="Parte" seqName="seg_0"/>
    <object objectType="Entity" objectID="6DB2E8DF-0308-DEE0-CB0C-FB0269AD88AB" name="Trabajador" seqName="seg_0"/>
    <object objectType="Entity" objectID="A2652BD3-E315-034E-B159-98AFD7FAEFC9" name="Usuario" seqName="seg_0"/>
    <object objectType="Entity" objectID="CA51664B-E0DC-4212-F8E6-304E6C8FBB64" name="Viaje" seqName="seg_0"/>
-   <object objectType="Relation" objectID="F082C8F2-2017-869E-9AFF-4F14BE5A0199" name="Administrav1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F082C8F2-2017-869E-9AFF-4F14BE5A0199" name="Administrav2" seqName="seg_0"/>
    <object objectType="Relation" objectID="ED8FC699-7B22-710F-617B-7B7F43341217" name="Asigna" seqName="seg_0"/>
    <object objectType="Relation" objectID="1B449D94-7E14-A48A-C222-E0DFCD1B1DFA" name="Crean" seqName="seg_0"/>
    <object objectType="Relation" objectID="DF28FD9F-B77B-CD17-86C6-2D940F0752B5" name="Hacen" seqName="seg_0"/>
    <object objectType="Relation" objectID="8C31E983-00C6-ED2B-5448-884CF329D69E" name="Tienen" seqName="seg_0"/>
    <object objectType="Relation" objectID="80AB16FC-A745-7474-97F5-D2023DA60F92" name="administra" seqName="seg_0"/>
    <object objectType="Relation" objectID="A218700C-C1A4-3ADA-1BF6-35F0685DE5C0" name="crea" seqName="seg_0"/>
-   <object objectType="Relation" objectID="CB66A744-6EC9-3810-C331-30E990558FB5" name="crea_administra" seqName="seg_0"/>
    <object objectType="Relation" objectID="38659F62-88C1-7906-4A1E-2031241C92D2" name="hay" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="18CFE048-0CC2-516B-5013-8389D5CA59BD" name="Hierarchy_1" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="1398FEA6-A297-FC4D-880F-47B7C73FD77C" name="Hierarchy_2" seqName="seg_0"/>

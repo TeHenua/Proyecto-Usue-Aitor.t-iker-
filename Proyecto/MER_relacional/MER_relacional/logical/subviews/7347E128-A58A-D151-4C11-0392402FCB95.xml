@@ -48,6 +48,14 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 </Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="38659F62-88C1-7906-4A1E-2031241C92D2" otype="Relation" vid_source="0418EBC3-EB0F-67AB-90C6-E6DE73C7CD43" vid_target="CFB9AAB6-A0AD-B974-4ECE-1E2EA1FBA169">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="718" y="389"/>
+<point x="718" y="527"/>
+</points>
+</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVInheritanceRelation" oid="3A0482FD-4DEE-E2D2-46C5-7F3DC050EBA4" otype="Hierarchy relation" vid_source="C9916D27-040B-615F-1C13-E8E668D9B2A3" vid_target="4DA3FEF1-2AA7-7CD0-E193-7DC40ECEDA8B">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
